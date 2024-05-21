@@ -1,6 +1,9 @@
 import { Inter } from "next/font/google";
 import "../styles/globals.css";
 import UIprovider from "./ui-provider";
+import { Box } from "@chakra-ui/react";
+import Navbar from "@/components/common/navbar";
+import Footer from "@/components/common/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,10 +14,16 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" style={{background:"black"}}>
       <body className={inter.className}>
         <UIprovider>
-          {children}
+          <Box id="root" className="root" bg="ui.black" color="ui.white">
+            <Box as="header" position="fixed" top={0} zIndex={50} w="full">
+              <Navbar />
+            </Box>
+            {children}
+            <Footer />
+          </Box>
         </UIprovider>
       </body>
     </html>

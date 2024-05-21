@@ -1,3 +1,8 @@
+:root {
+    --color-darkest: rgb(19,19,19);
+    --color-white: rgb(250,252,255);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,13 +12,16 @@
 }
 
 html, body {
-    background-color: white;
+    background-color: black;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #b1b1b1 #272727;
 }
 
 body {
     width: 100%;
     min-height: 100vh;
-    color: black;
+    color: var(--color-white);
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -22,4 +30,11 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
     text-wrap: pretty;
+}
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }

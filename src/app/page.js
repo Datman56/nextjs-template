@@ -1,9 +1,15 @@
+import About from "@/components/common/About";
+import HeroSection from "@/components/common/hero";
+import Projects from "@/components/common/projects";
 import { Heading, VStack } from "@chakra-ui/react";
 
-export default function Home() {
+export default async function Home() {
+
   return (
-    <VStack width="100%" minHeight="100vh" justifyContent="center">
-      <Heading>Home page</Heading>
+    <VStack width="full" minHeight="100vh" justifyContent="center">
+      <HeroSection />
+      <Projects />
+      <About />
     </VStack>
   );
 }

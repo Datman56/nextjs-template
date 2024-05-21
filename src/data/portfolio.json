@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "E-commerce Website",
+    "description": "A fully functional e-commerce website built for a fictional clothing brand. Users can browse products, add items to cart, and checkout securely.",
+    "technologies": ["React", "Node.js", "Express", "Stripe"],
+    "type": "developer",
+    "image": "",
+    "link": "",
+    "github": ""
+  },
+  {
+    "id": 2,
+    "name": "Task Management App",
+    "description": "A mobile application for creating and managing tasks with deadlines, priorities, and progress tracking features.",
+    "technologies": ["Flutter", "Firebase", "SQLite"],
+    "type": "ui",
+    "image": "",
+    "link": "",
+    "github": ""
+  },
+  {
+    "id": 3,
+    "name": "Data Visualization Dashboard",
+    "description": "An interactive dashboard for visualizing real-time data from various sources. Users can filter and customize data views.",
+    "technologies": ["Python", "Flask", "D3.js"],
+    "type": "developer",
+    "image": "",
+    "link": "",
+    "github": ""
+  },
+  {
+    "id": 4,
+    "name": "Blog with Content Management System (CMS)",
+    "description": "A personal blog website with a user-friendly CMS for adding, editing, and publishing blog posts.",
+    "technologies": ["Django", "MySQL", "Bootstrap"],
+    "type": "developer",
+    "image": "",
+    "link": "",
+    "github": ""
+  },
+  {
+    "id": 5,
+    "name": "Social Media Clone",
+    "description": "A social media platform prototype focusing on connecting users with similar interests and allowing them to share content.",
+    "technologies": ["React Native", "AWS Amplify", "GraphQL"],
+    "type": "ui",
+    "image": "",
+    "link": "",
+    "github": ""
+  },
+  {
+    "id": 6,
+    "name": "Machine Learning Model for Image Classification",
+    "description": "A machine learning model trained to identify different objects in images with high accuracy.",
+    "technologies": ["Python", "TensorFlow", "Keras", "MNIST dataset"],
+    "type": "ui",
+    "image": "",
+    "link": "",
+    "github": ""
+  },
+  {
+    "id": 7,
+    "name": "API for Currency Conversion",
+    "description": "A RESTful API that allows users to convert between different currencies with live exchange rates.",
+    "technologies": ["Java", "Spring Boot", "Fixer.io API"],
+    "type": "developer",
+    "image": "",
+    "link": "",
+    "github": ""
+  },
+  {
+    "id": 8,
+    "name": "Chrome Extension for Productivity",
+    "description": "A Chrome extension that helps users stay focused and manage their time efficiently while browsing.",
+    "technologies": ["JavaScript", "HTML", "CSS", "Manifest v3"],
+    "type": "ui",
+    "image": "",
+    "link": "",
+    "github": ""
+  },
+  {
+    "id": 10,
+    "name": "Bug Tracking System",
+    "description": "An internal web application for developers to report, track, and manage bugs efficiently.",
+    "technologies": ["Angular", "TypeScript", "Jira integration"],
+    "type": "ui",
+    "image": "",
+    "link": "",
+    "github": ""
+  },
+  {
+    "id": 11,
+    "name": "Content Management System (CMS) for a Non-Profit",
+    "description": "A user-friendly CMS for a non-profit organization to manage website content, volunteer opportunities, and donation platforms.",
+    "technologies": ["WordPress", "Advanced Custom Fields", "WooCommerce"],
+    "type": "developer",
+    "image": "",
+    "link": "",
+    "github": ""
+  },
+  {
+    "id": 12,
+    "name": "Chatbot for Customer Service",
+    "description": "A natural language processing (NLP) powered chatbot to answer customer queries and provide basic troubleshooting steps.",
+    "technologies": ["Python", "Dialogflow", "Rasa"],
+    "type": "developer",
+    "image": "",
+    "link": "",
+    "github": ""
+  },
+  {
+    "id": 13,
+    "name": "Progressive Web App (PWA) Game",
+    "description": "A PWA game that can be played online and offline, offering a smooth and engaging user experience across devices.",
+    "technologies": ["Phaser.js", "Service Workers", "Cache API"],
+    "type": "developer",
+    "image": "",
+    "link": "",
+    "github": ""
+  }
+]
